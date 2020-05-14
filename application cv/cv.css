@@ -1,0 +1,127 @@
+*{
+    font-family: Avenir, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    text-align: justify;
+    box-sizing: border-box;
+}
+body{
+        width:100%;   
+    }
+  body {
+  	background-color: white;
+  }
+	#block {
+   		padding:5px;
+        background-color: white;
+        width: 600px;
+        display:block;
+        margin:auto;
+        color: white;
+    	}
+    #bloc-titre {
+    	padding:5px;
+        background-color: white;
+        width: 360px;
+        display:block;
+        margin:auto;
+    }
+    #maphoto {
+    	padding:5px;
+        background-color: white;
+        width: 150px;
+        display:block;
+        margin:auto;
+    }
+#container {
+  display: grid;
+  grid: repeat(1, 168px) / auto-flow 300px;
+}
+
+#container > div {
+  background-color: #FFFFFF;
+  width: 168px;
+  height: 131px;
+}
+div#entreprise1 {
+  background-image: url(savdeto1.jpg);
+  background-repeat: no-repeat;
+  width: 168px;
+  height: 131px;
+  padding: 0;
+}
+div#entreprise2 {
+  background-image: url(pigier1.jpg);
+  background-repeat: no-repeat;
+  width: 168px;
+  height: 131px;
+  padding: 0;
+}
+div#entreprise3 {
+  background-image: url(pierreetdesign1.jpg);
+  background-repeat: no-repeat;
+  width: 168px;
+  height: 131px;
+  padding: 0;
+}
+div#entreprise4 {
+  background-image: url(graphin.png);
+  background-repeat: no-repeat;
+  width: 168px;
+  height: 131px;
+  padding: 0;
+}
+div#entreprise6 {
+  background-image: url(terranimo.png);
+  background-repeat: no-repeat;
+  width: 168px;
+  height: 131px;
+  padding: 0;
+}
+  img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+   button{
+        text-align: center;
+        display: block;
+        margin:auto;
+        background-color:white;
+        color:black;
+    }
+  section{
+  	display: : flex;
+  	flex-flow: row wrap;
+  	justify-content: center;
+  	width: 100%;
+  	padding-bottom: 20px;
+  	margin: 20px auto;
+  	box-shadow: 0px 0px 10 p black;
+  	background-color: white;
+  }
+
+  .interet{
+  	flex: 0 1 50%;
+  	display: flex;
+  	flex-flow: column wrap;
+  	align-items: center;
+  	margin-bottom: 20px;
+  }
+  .interet img{
+  	width: 80px;
+  	height: 80px;
+  	border-radius: 50%;
+  	box-shadow: 0px 0px 15px #555;
+  }
+  h1{
+  	color: red ;
+  }
+  h2{
+  	color: black;
+  }
+  li {
+  	color: grey-black;
+  }
+  p{color: grey-black;
+  }
